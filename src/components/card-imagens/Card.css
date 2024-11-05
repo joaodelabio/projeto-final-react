@@ -3,7 +3,6 @@
     margin: 0;
 }
 
-/* Estilos para o card de imagem */
 .card-imagem {
     display: flex;
     flex-direction: column;
@@ -16,7 +15,7 @@
 }
 
 .card-imagem:hover {
-    transform: scale(1.05); /* Efeito de zoom suave no hover */
+    transform: scale(1.05);
 }
 
 .card-imagem-img {
