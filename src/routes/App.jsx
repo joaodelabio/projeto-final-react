@@ -1,10 +1,12 @@
-import Header from "../components/Header"
+import Main from "../views/Main"
+import Galeria from "../views/Galeria"
 
 function App() {
 
   return (
     <>
-    <Header/>
+    {/*<Main/>*/}
+    <Galeria/>
     </>
   )
 }
