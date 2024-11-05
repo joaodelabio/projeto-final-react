@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos para o card de imagem */
+.card-imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.card-imagem:hover {
+    transform: scale(1.05); /* Efeito de zoom suave no hover */
+}
+
+.card-imagem-img {
+    width: 100%;
+    height: auto;
+}
+
+.card-imagem-title {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+    color: #333;
+    text-align: center;
+}
+
+.card-imagem-description {
+    font-size: 0.9em;
+    color: #666;
+    padding: 0 10px 10px;
+    text-align: center;
+}
