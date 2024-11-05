@@ -5,7 +5,7 @@ export default function Header() {
         <>
         <header>
             <div className='logo'>
-                <h1>Galeria Antonho</h1>
+                <h1>Galeria</h1>
             </div>
             <nav className='header-links'>
                 <p className='header-links'>Home</p>
