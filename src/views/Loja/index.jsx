@@ -1,12 +1,12 @@
 import Header from "../../components/header";
-import GridGaleria from "../../components/grid-galeria";
+import GridLoja from "../../components/grid-loja";
 import CardImagens from "../../components/card-imagens";
 
 export default function Galeria() {
     return (
         <>
         <Header/>
-        <GridGaleria/>
+        <GridLoja/>
         <CardImagens/>
         </>
     );

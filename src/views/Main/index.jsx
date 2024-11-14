@@ -1,11 +1,11 @@
 import Header from "../../components/header"
-import Fogo from "../../components/fogo";
+import LandingPage from "../../components/landing-page";
 
 export default function MainPage() {
     return (
         <>
         <Header/>
-        <Fogo/>
+        <LandingPage/>
         </>
     );
 }

@@ -1,12 +1,12 @@
 import Main from "../views/Main"
-import Galeria from "../views/Galeria"
+import Loja from "../views/Loja"
 
 function App() {
 
   return (
     <>
     {/*<Main/>*/}
-    <Galeria/>
+    <Loja/>
     </>
   )
 }
