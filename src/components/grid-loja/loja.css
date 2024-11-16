@@ -6,15 +6,17 @@
 .grid-loja {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto; 
-    padding: 16px;
+    padding: 20px;
 }
 
 .container-imagens {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
     justify-content: center;
+    gap: 20px;
+    width: 100%;
 }

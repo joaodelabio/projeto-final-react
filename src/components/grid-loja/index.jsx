@@ -11,8 +11,6 @@ export default function GridLoja() {
         setTermoPesquisa(termo.toLowerCase());
     };
 
-    // agr tem id
-
     const produtos = [
         { id: 1, src: './src/assets/imagens/sabao1.png', title: "teste1", description: "texto texto texto" },
         { id: 2, src: './src/assets/imagens/sabao2.png', title: "teste2", description: "texto texto texto" },
@@ -22,15 +20,14 @@ export default function GridLoja() {
         { id: 6, src: './src/assets/imagens/sabao6.png', title: "teste6", description: "texto texto texto" },
     ];
 
-    // peneira
-
-    const produtosFiltrados = produtos.filter(produto =>
-        produto.title.toLowerCase().includes(termoPesquisa) || produto.description.toLowerCase().includes(termoPesquisa)
+    const produtosFiltrados = produtos.filter((produto) =>
+        produto.title.toLowerCase().includes(termoPesquisa) ||
+        produto.description.toLowerCase().includes(termoPesquisa)
     );
 
     const addCarrinho = (produto) => {
         setCarrinho([...carrinho, produto]);
-        alert(`adicionado ao carrinho. ${produto.title}`);
+        alert(`"${produto.title}" adicionado ao carrinho.`);
     };
 
     return (
@@ -47,7 +44,6 @@ export default function GridLoja() {
                     />
                 ))}
             </div>
-
         </section>
     );
 }
