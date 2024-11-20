@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.carrinho-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+    background-color: #ebebeb;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.resumo-carrinho {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.lista-produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.produto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.produto img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.detalhes-produto {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.detalhes-produto h2 {
+    font-size: 1.1em;
+    margin: 0;
+    color: #333;
+}
+
+.detalhes-produto p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.remover-produto {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.remover-produto:hover {
+    background-color: #e60000;
+}
+
+.acoes-carrinho {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fechar-pedido {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fechar-pedido:hover {
+    background-color: #45a049;
+}
