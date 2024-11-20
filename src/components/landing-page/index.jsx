@@ -16,7 +16,7 @@ export default function LandingPage() {
             <section id="contatos">
                 <div className="conteudo-contatos">
                     <img src="./src/assets/imagens/macaco-jornal.jpg" alt="CEO sabao macaco"/>
-                    <p>TEXTO TEXTO TEXTO TEXTO TEXTO TEXTO</p>
+                    <p>Magago lendo jornal</p>
                     <div className="links-contatos">
                         <a href="https://youtu.be/LVMHYzVS9Y4?si=za714Vanx_XPLZ0m" target="_blank">
                             chama no zap
