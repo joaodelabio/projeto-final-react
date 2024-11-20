@@ -1,0 +1,24 @@
+.alerta {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    margin-top: 60px;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Oswald', sans-serif;
+    animation: slide-in 0.3s ease-out;
+}
+
+@keyframes slide-in { /*magia demais*/
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
