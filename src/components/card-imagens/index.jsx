@@ -10,7 +10,7 @@ export default function CardImagens({ src, title, description, onAddCarrinho }) 
             <img src={src} alt={title} />
             <h3>{title}</h3>
             <p>{description}</p>
-            <button onClick={onAddCarrinho}>Adicionar ao Carrinho</button>
+            <button onClick={onAddCarrinho}>Adicionar ao carrinho</button>
         </div>
     );
 }
