@@ -3,6 +3,41 @@
     margin: 0;
 }
 
+@media (min-width: 1200px) {
+    .grid-loja {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .container-imagens {
+        justify-content: space-between;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 855px) and (max-width: 1199px) {
+    .grid-loja {
+        padding: 30px;
+    }
+
+    .container-imagens {
+        justify-content: center;
+        gap: 25px;
+    }
+}
+
+@media (max-width: 854px) {
+    .grid-loja {
+        padding: 20px;
+    }
+
+    .container-imagens {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
 .grid-loja {
     display: flex;
     flex-direction: column;
