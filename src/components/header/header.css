@@ -81,7 +81,7 @@ header {
 @media (max-width: 854px) {
     header {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         padding: 10px;
         height: auto;
     }
@@ -95,7 +95,8 @@ header {
     .header-links {
         flex-direction: row;
         gap: 0.8rem;
-        align-self: flex-end;
+        align-self: center;
+        justify-content: center;
     }
 
     .header-link {
