@@ -29,24 +29,24 @@ Este projeto é uma simples loja online responsiva feita em React para os camara
 - Ter o [Node.js](https://nodejs.org/en) instalado.
 - Gerenciador de pacotes npm instalado.
 
-    Clonar o repositório: 
+1. Clonar o repositório: 
 
     ``` bash
     https://github.com/joaodelabio/projeto-final-react.git
     ```
-    Navegar até o diretório do projeto:
+2. Navegar até o diretório do projeto:
 
     ``` bash
     cd projeto-final-react
     ```
 
-    Instalar dependências:
+3. Instalar dependências:
 
     ```bash
     npm install
     ```
 
-    Rodar o projeto:
+4. Rodar o projeto:
 
     ```bash
     npm run dev
